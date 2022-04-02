@@ -1,0 +1,7 @@
+<root>
+    <item name='java.lang.Throwable java.lang.String getMessage()'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true" />
+        </annotation>
+    </item>
+</root>

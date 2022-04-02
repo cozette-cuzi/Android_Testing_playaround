@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DBEBF8"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteY="81dp">
+
+        <!-- Text view for result view-->
+
+        <TextView
+            android:id="@+id/textView_output"
+            android:layout_width="379dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="300dp"
+            android:text="Output"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editText_string"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="40dp"
+            android:inputType="text" />
+        <TextView
+            android:id="@+id/textView_string"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/string_text"
+            android:textSize="20dp" />
+
+        <!--view message -->
+        <TextView
+            android:id="@+id/textView_number"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/number_text"
+            android:textSize="20dp" />
+
+
+        <EditText
+            android:id="@+id/editText_number"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="90dp"
+            tools:ignore="MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginTop="200dp"
+            android:text="@string/btn_text" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

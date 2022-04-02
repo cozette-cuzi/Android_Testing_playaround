@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SQAT</string>
+    <string name="btn_text">Crop</string>
+    <string name="string_text">String</string>
+    <string name="number_text">Number</string>
+    <string name="not_a_number_err">Second input should be a number.</string>
+    <string name="greater_than_length_err">The number should be smaller than the input string.</string>
+</resources>
